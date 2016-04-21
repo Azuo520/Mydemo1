@@ -9,9 +9,8 @@
 关于通知机制的示范：
 2个类之间的通信。
 
-##
-其他博客
-##
+## 其他博客
+
 博客园（http://www.cnblogs.com/azuo/) 
 ##
 简书（http://www.jianshu.com/users/a46bde0697f4/latest_articles）
