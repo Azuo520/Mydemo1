@@ -15,4 +15,4 @@
 ##
 简书：http://www.jianshu.com/users/a46bde0697f4/latest_articles
 ##
-啊左稀罕iOS开发，稀罕摄影。欢迎交流
+啊左，稀罕iOS开发，也稀罕摄影。欢迎交流~
