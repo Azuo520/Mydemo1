@@ -11,6 +11,6 @@
 
 ## 其他博客
 
-博客园（http://www.cnblogs.com/azuo/) 
+博客园：http://www.cnblogs.com/azuo/
 ##
-简书（http://www.jianshu.com/users/a46bde0697f4/latest_articles） 
+简书：http://www.jianshu.com/users/a46bde0697f4/latest_articles
