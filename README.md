@@ -1,6 +1,6 @@
 # 前言
 
-这是我的第一个GitHub项目 [Mydemo]
+这是我的第一个GitHub项目 [Mydemo1]
 欢迎访问。
 欢迎下载交流。 
 
