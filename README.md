@@ -5,7 +5,8 @@
 欢迎下载交流。 
 
 ##本次开发环境
-【Xcode:7.2 iOS Simulator:iphone6】
+Xcode:7.2 
+iOS Simulator: iphone6
 
 ## 内容
 
