@@ -20,13 +20,13 @@
 
 - (IBAction)saveBtn:(UIButton *)sender {
     
-    //返回视图A并发布通知
+    // 返回视图 A 并发布通知
     [self dismissViewControllerAnimated:YES completion:^{
-        //1.创建userInfo携带的信息
+        // 1.创建 userInfo 携带的信息
         NSString *str = self.MyTextView.text;
         NSDictionary *dictData = [NSDictionary dictionaryWithObject:str forKey:@"MyUserInfoKey"];
-        //2.发布信息
-        [[NSNotificationCenter defaultCenter]postNotificationName:@"MyNotificationName" object:nil userInfo:dictData];
+        // 2.发布信息
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"MyNotificationName" object:nil userInfo:dictData];
     }];
 }
 @end

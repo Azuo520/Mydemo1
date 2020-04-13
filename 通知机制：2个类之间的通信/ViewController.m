@@ -17,23 +17,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //1.注册为观察者，监听B视图中的通知
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(AMethod:) name:@"MyNotificationName" object:nil];
+    // 1.注册为观察者，监听B视图中的通知
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(AMethod:)
+                                                 name:@"MyNotificationName"
+                                               object:nil];
 }
 
--(void)AMethod:(NSNotification *)notification
-{
-    //2.获取通知携带的数据，更新label的文本信息
+- (void)AMethod:(NSNotification *)notification {
+    // 2.获取通知携带的数据，更新 label 的文本信息
     NSDictionary *dictData = [notification userInfo];
     NSString *str = [dictData objectForKey:@"MyUserInfoKey"];
     self.myLabel.text = str;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    
-    //3.移除所有通知
-    [[NSNotificationCenter defaultCenter]removeObserver:self];
+- (void)dealloc {
+    // 3.移除所有通知
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 @end
